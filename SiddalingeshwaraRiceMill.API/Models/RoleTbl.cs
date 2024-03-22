@@ -9,7 +9,7 @@ public partial class RoleTbl
 
     public string? RoleName { get; set; }
 
-    public int? DeptId { get; set; }
+    public int DeptId { get; set; }
 
     public virtual DepartmentTbl? Dept { get; set; }
 
